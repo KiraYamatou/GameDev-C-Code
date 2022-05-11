@@ -1,5 +1,10 @@
 // 5/6/2022: Work on Jump mechanic, continue tweaking camera as well maybe?
 // 5/10/2022: Jump mechanic & player movement/camera movement complete, needs animations.
+// For jump to work on your object of interest or player object. Create an empty object called groundCheck.
+// Drag it under the player object as a child. Drag the groundCheck empty object into the ground check Node in
+// the inspector of your player object. In the inspector of groundCheck, reset the transform position and adjust the y position to desired position.
+// Then set the groundMask variable to ground so it counts all ground layers for your terrain.
+// ********And MAKE SURE ALL TERRAIN IS LAYERED AS GROUND*******.
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
