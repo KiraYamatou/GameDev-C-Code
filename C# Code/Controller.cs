@@ -1,5 +1,5 @@
 // 5/6/2022: Work on Jump mechanic, continue tweaking camera as well maybe?
-// 5/10/2022: Jump mechanic complete, needs animations.
+// 5/10/2022: Jump mechanic & player movement/camera movement complete, needs animations.
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
